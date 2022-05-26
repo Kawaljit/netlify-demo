@@ -13,7 +13,8 @@ lists:
   - name: link 4
     description: this is link 4 description
 ---
-
 Welcome to my awesome page about cats of the internet.
+
+![](img/screen-shot-2022-05-27-at-12.42.19-am.png)
 
 This page is built with NextJS, and content is managed in Netlify CMS
