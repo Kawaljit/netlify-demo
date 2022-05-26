@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
 media_folder: public/img
 public_folder: img
 collections:
@@ -13,8 +13,8 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Publish Date', name: 'date', widget: 'datetime' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-          - label: 'Cats'
-            name: 'cats'
+          - label: 'List'
+            name: 'lists'
             widget: list
             fields:
               - { label: 'Name', name: 'name', widget: 'string' }
